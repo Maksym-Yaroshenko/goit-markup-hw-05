@@ -866,6 +866,7 @@ font-family: 'Roboto', sans-serif; */
 
 .review-form-checkbox-fake-icon {
     opacity: 0;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .review-form-checkbox-origin:checked+.review-form-label-checkbox .review-form-checkbox-fake-icon {
